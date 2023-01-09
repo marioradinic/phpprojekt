@@ -81,6 +81,10 @@ if(isset($_GET['pg'])) { $pg = $_GET['pg']; }
 		$page = "narudzba.php";
 		$title="Moja narudžba";
 		break;
+		case "13":
+		$page = "mojenarudzbe.php";
+		$title="Moje narudžbe";
+		break;
 		default:
 		$page = "pocetna.php";
 		$title="Trgovina knjiga";

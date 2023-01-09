@@ -30,7 +30,7 @@ if ($act == 1)
 	}
 	else 
 	{
-		$msginfo =  "Neuspješna registracija - korisniko ime se već koristi!";
+		$msginfo =  "Neuspješna registracija - korisničko ime se već koristi!";
 	}	
 }
 

@@ -360,7 +360,7 @@ CREATE TABLE orders (
   name varchar(50) NOT NULL,
   lastname varchar(50) NOT NULL,
   email varchar(50) NOT NULL,
-  note text NOT NULL,
+  note text,
   user_id int null,
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 

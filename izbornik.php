@@ -35,8 +35,14 @@ else if ($_SESSION['user']['is_logon'] == '1')
             <li><a href="index.php?pg=7">Administracija</a></li>
 <?php
 	}
+	else
+	{
 ?>
-            <li><a href="odjava.php">Odjava</a></li>
+            <li><a href="index.php?pg=13">Moje narudžbe</a></li>
+<?php
+	}
+?>
+			<li><a href="odjava.php">Odjava</a></li>		
 <?php
 }
 ?>
